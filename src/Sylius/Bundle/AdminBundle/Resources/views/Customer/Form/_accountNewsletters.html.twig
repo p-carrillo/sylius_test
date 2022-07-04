@@ -1,0 +1,14 @@
+<h4 class="ui dividing header">Manage Newsletters</h4>
+{% if customer.user is empty or customer.user.id is null %}
+    <div class="field">
+        <div class="ui toggle checkbox">
+            {{ form_row(form.createUser) }}
+        </div>
+    </div>
+{% endif %}
+{% if form.user is defined %}
+    <div id="user-form" {% if form.user.vars.data.id is not defined %} style="display: none" {% endif %}>
+        {{ dump(form.user) }}
+{#        {{ form_row(form.user.newsletters) }}#}
+    </div>
+{% endif %}

@@ -1,0 +1,33 @@
+{
+  "symbol-whitelist" : [
+    "null", "true", "false",
+    "static", "self", "parent",
+    "array", "string", "int", "float", "bool", "iterable", "callable", "void", "object", "mixed", "never",
+    "Swift_Message",
+    "Behat\\Behat\\Tester\\ScenarioTester",
+    "Behat\\Behat\\Tester\\ServiceContainer\\TesterExtension",
+    "Behat\\Gherkin\\Node\\FeatureNode",
+    "Behat\\Gherkin\\Node\\ScenarioInterface",
+    "Behat\\Gherkin\\Node\\ScenarioNode",
+    "Behat\\Testwork\\Environment\\Environment",
+    "Behat\\Testwork\\ServiceContainer\\Extension",
+    "Behat\\Testwork\\ServiceContainer\\ExtensionManager",
+    "Behat\\Testwork\\Suite\\Exception\\ParameterNotFoundException",
+    "Behat\\Testwork\\Tester\\Result\\TestResult",
+    "Behat\\Testwork\\Tester\\Setup\\Setup",
+    "Behat\\Testwork\\Tester\\Setup\\Teardown",
+    "HWI\\Bundle\\OAuthBundle\\Connect\\AccountConnectorInterface",
+    "HWI\\Bundle\\OAuthBundle\\OAuth\\Response\\UserResponseInterface",
+    "HWI\\Bundle\\OAuthBundle\\Security\\Core\\User\\OAuthAwareUserProviderInterface"
+  ],
+  "php-core-extensions" : [
+    "Core",
+    "date",
+    "pcre",
+    "Phar",
+    "Reflection",
+    "SPL",
+    "standard"
+  ],
+  "scan-files" : []
+}
